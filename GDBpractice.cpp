@@ -2,7 +2,7 @@ using namespace std;
 #include <iostream>
 
 int findMax(int arr[], int size) {
-  int max = 0;
+  int max;
 
   for(int i = 0; i < size; ++i) {
     if(arr[i] > max) {
